@@ -1,0 +1,8 @@
+.inputarea {
+  flex-grow: 1;
+  color: $primarycolor;
+  padding: 20px 15px 17px 15px;
+  &:focus {
+    outline: 1px solid #47474c;
+  }
+}

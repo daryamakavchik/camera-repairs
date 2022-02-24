@@ -1,0 +1,6 @@
+.label_place_footer {
+  padding-bottom: 184px;
+  @include responsive(tablet) {
+    padding-bottom: 84px;
+  }
+}

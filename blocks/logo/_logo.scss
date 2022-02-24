@@ -1,0 +1,10 @@
+.logo {
+  @include fontproperty(20px, 1.33, 400);
+  color: $primarycolor;
+  margin: 0 16px 0 0;
+  padding: 0;
+  @include responsive(tablet) {
+    @include fontproperty(22px, 1.36, 400);
+    margin: 0 20px 0 0;
+  }
+}

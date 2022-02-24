@@ -1,0 +1,19 @@
+.card-guarant {
+  padding-bottom: 38px;
+  @include responsive(tablet) {
+    padding-bottom: 39px;
+  }
+  @include responsive(desktop) {
+    padding: 20px;
+  }
+  &__text {
+    margin: 36px 0 0 0;
+    padding: 0;
+    @include responsive(tablet) {
+      @include fontproperty(15px, 1.26, 400);
+    }
+  }
+  &__label {
+    color: $primarycolor;
+  }
+}

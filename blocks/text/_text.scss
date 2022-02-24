@@ -1,0 +1,15 @@
+.text {
+  @include fontproperty();
+  color: $secondarycolor;
+  margin: 40px 0 20px 0;
+  padding: 0;
+  height: 108px;
+  @include responsive(tablet) {
+    @include fontproperty(20px, 1.5, 400);
+  }
+  @include responsive(desktop) {
+    @include fontproperty(32px, 1.25, 400);
+    height: auto;
+    margin: 100px 0 0 0;
+  }
+}

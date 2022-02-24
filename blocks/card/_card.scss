@@ -1,0 +1,41 @@
+.card {
+  background-color: $darkdullcolor;
+  border-radius: 16px;
+  padding: 20px;
+  @include responsive(tablet) {
+    padding: 40px;
+  }
+  &__label {
+    @include fontproperty(18px, 1, 400);
+    @include zeroindent();
+    color: $secondarycolor;
+  }
+  &__heading {
+    @include fontproperty(24px, 1.33, 400);
+    color: $primarycolor;
+    margin: 10px 0 0 0;
+    padding: 0;
+    @include responsive(tablet) {
+      @include fontproperty(32px, 1, 400);
+      margin: 20px 0 0 0;
+    }
+  }
+  &__text {
+    @include fontproperty();
+    color: $secondarycolor;
+    margin: 28px 0 100px 0;
+    padding: 0;
+    @include responsive(tablet) {
+      @include fontproperty(32px, 1.25, 400);
+      margin: 40px 0;
+    }
+  }
+  &__price {
+    @include fontproperty();
+    @include zeroindent();
+    color: $highlightcolor;
+    @include responsive(tablet) {
+      @include fontproperty(14px, 1, 400);
+    }
+  }
+}

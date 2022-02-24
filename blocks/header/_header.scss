@@ -1,0 +1,42 @@
+.header {
+  margin: 0 20px 20px 20px;
+  padding: 24px 0 0 0;
+  @include responsive(tablet) {
+    margin: 0 0 32px 0;
+    padding: 60px 60px 0 60px;
+  }
+  @include responsive(desktop) {
+    margin: 0 auto 60px auto;
+    padding-top: 60px;
+  }
+  &__title {
+    @include fontproperty(50px, 1.2, 400);
+    color: $primarycolor;
+    margin: 0 0 10px 0;
+    padding: 0;
+    @include responsive(tablet) {
+      @include fontproperty(70px, 1.28, 400);
+      margin: 0;
+    }
+    @include responsive(desktop) {
+      @include fontproperty(112px, 1, 400);
+      margin: 0 0 20px;
+    }
+  }
+  &__subtitle {
+    @include fontproperty(30px, 1.26, 400);
+    color: $primarycolor;
+    margin: 0 0 260px 0;
+    padding: 0;
+    width: calc(100vw - 102px);
+    @include responsive(tablet) {
+      @include fontproperty(50px, 1.2, 400);
+      width: calc(100vw - 124px);
+    }
+    @include responsive(desktop) {
+      @include fontproperty(70px, 1.14, 400);
+      width: calc(100vw - 410px);
+      margin: 0 0 230px 0;
+    }
+  }
+}
