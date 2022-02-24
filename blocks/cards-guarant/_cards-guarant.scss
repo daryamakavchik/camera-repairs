@@ -1,13 +1,18 @@
 .cards-guarant {
   grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
   &__heading {
+    @include fontproperty();
+    color: $primarycolor;
+    padding: 0;
     margin: 70px 20px 20px 20px;
     @include responsive(tablet) {
       margin: 120px 60px 80px 60px;
+      @include fontproperty(20px, 1.5, 400);
     }
     @include responsive(desktop) {
       width: calc(100vw - 120px);
       max-width: 1380px;
+      @include fontproperty(32px, 1.25, 400);
     }
   }
 }

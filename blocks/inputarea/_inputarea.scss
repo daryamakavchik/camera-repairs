@@ -1,8 +1,21 @@
 .inputarea {
+  margin: 0;
+  padding: 0 16px 0;
+  min-width: 229px;
   flex-grow: 1;
   color: $primarycolor;
   padding: 20px 15px 17px 15px;
   &:focus {
     outline: 1px solid #47474c;
+  }
+  &:hover {
+    cursor: default;
+    outline: 1px solid $secondarycolor;
+  }
+  @include responsive(tablet) {
+    max-width: 427px;
+  }
+  @include responsive(desktop) {
+    max-width: 348px;
   }
 }

@@ -1,9 +1,7 @@
 .input {
   @include flex();
-
   margin: 0 0 10px 0;
   padding: 0;
-  height: 50px;
   &__label {
     @include fontproperty();
     @include zeroindent();
@@ -15,5 +13,4 @@ input[type="text"] {
   background-color: $secondarybackground;
   border: none;
   border-radius: 8px 0 0 8px;
-  width: 229px;
 }

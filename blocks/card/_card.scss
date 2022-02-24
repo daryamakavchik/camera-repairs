@@ -38,4 +38,7 @@
       @include fontproperty(14px, 1, 400);
     }
   }
+  &:hover {
+    box-shadow: 0 0 5px rgba(33, 33, 33, 0.2);
+  }
 }
