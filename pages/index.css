@@ -259,6 +259,10 @@ input[type="text"] {
   }
 }
 
+.button__icon {
+  margin-left: 10px;
+}
+
 .images {
   display: grid;
   padding: 0 20px;
