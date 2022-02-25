@@ -173,8 +173,9 @@ input[type="text"] {
   padding: 0 16px 0;
   min-width: 229px;
   flex-grow: 1;
+  background-color: rgba(142, 142, 152, 0.2);
   color: #ffffff;
-  padding: 20px 15px 17px 15px;
+  padding: 13px 16px;
 }
 @media (min-width: 768px) {
   .inputarea {
@@ -188,12 +189,13 @@ input[type="text"] {
 }
 
 .inputarea:hover {
-  cursor: default;
-  outline: 1px solid #8e8e98;
+  cursor: pointer;
+  background-color: rgba(142, 142, 152, 0.3);
 }
 
 .inputarea:focus {
-  outline: 1px solid #47474c;
+  background-color: rgba(142, 142, 152, 0.3);
+  outline: none;
 }
 
 .button {
@@ -229,7 +231,7 @@ input[type="text"] {
 
 .button:hover {
   cursor: pointer;
-  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(71, 71, 76, 0.7);
 }
 
 .button__text {
@@ -410,7 +412,7 @@ input[type="text"] {
 
 .card:hover {
   cursor: pointer;
-  box-shadow: 0 3px 5px rgba(255, 255, 255, 0.4);
+  background-color: #232327;
 }
 
 .card__label {

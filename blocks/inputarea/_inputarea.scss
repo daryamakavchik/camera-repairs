@@ -6,11 +6,12 @@
   color: $primarycolor;
   padding: 20px 15px 17px 15px;
   &:focus {
-    outline: 1px solid #47474c;
+    background-color: rgba(142, 142, 152, 0.3);
+    outline: none;
   }
   &:hover {
-    cursor: default;
-    outline: 1px solid $secondarycolor;
+    cursor: pointer;
+    background-color: rgba(142, 142, 152, 0.3);
   }
   @include responsive(tablet) {
     max-width: 427px;
