@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Проект: Ремонт фотоаппаратов
 ---
 
@@ -20,3 +21,4 @@
 
 ## Ссылка на сайт
 https://daryamakavchik.github.io/camera-repair/
+=======
