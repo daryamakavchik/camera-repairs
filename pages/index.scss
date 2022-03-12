@@ -13,6 +13,7 @@
 @import "../blocks/image/image";
 @import "../blocks/text/text";
 @import "../blocks/cards/cards";
+@import "../blocks/cards-main/cards-main";
 @import "../blocks/card/card";
 @import "../blocks/cards-guarant/cards-guarant";
 @import "../blocks/card-guarant/card-guarant";
@@ -20,11 +21,11 @@
 @import "../blocks/footer/footer";
 @import "../blocks/copyright/copyright";
 
-@import "../variables/background.scss";
-@import "../variables/color.scss";
-@import "../variables/media.scss";
-@import "../variables/"
+@import "../variables/background";
+@import "../variables/color";
+@import "../variables/media";
 
-@import "../mixins/flex.scss";
-@import "../mixins/zeroindent.scss";
-@import "../mixins/fontproperty.scss";
+@import "../mixins/zeroindent";
+@import "../mixins/flex";
+@import "../mixins/fontproperty";
+@import "../mixins/responsive";
