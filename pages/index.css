@@ -198,33 +198,27 @@ input[type=text] {
 }
 
 .button {
-  width: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 224px;
   height: 50px;
   background-color: #47474c;
   color: #ffffff;
   margin: 0;
   padding: 13px 16px;
   text-align: center;
+  line-height: 1.71;
+  font-size: 16px;
   border: 0;
   border-radius: 0px 8px 8px 0px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .button {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    width: 224px;
-    height: 50px;
-    font-size: 16px;
-  }
-}
-@media (min-width: 1440px) {
-  .button {
-    width: 224px;
-    height: 50px;
+    width: 52px;
   }
 }
 .button:hover {
@@ -243,20 +237,15 @@ input[type=text] {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  display: none;
+  display: inline-block;
 }
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .button__text {
-    display: inline-block;
-  }
-}
-@media (min-width: 1440px) {
-  .button__text {
-    display: inline-block;
+    display: none;
   }
 }
 .button__icon {
-  margin-left: 10px;
+  margin: 0;
 }
 
 .images {
@@ -406,16 +395,27 @@ input[type=text] {
 .cards__button {
   background-color: #47474c;
   color: #ffffff;
-  width: 280px;
+  width: 306px;
   height: 50px;
   border-radius: 8px;
+  font-size: 14px;
+  letter-spacing: 0.375px;
+  padding: 13px 30px;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .cards__button {
     width: 306px;
-    font-size: 14px;
     line-height: 24px;
     justify-content: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .cards__button {
+    padding: 16px 30px;
+    width: 280px;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
   }
 }
 .cards__text {
@@ -680,7 +680,7 @@ input[type=text] {
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .footer__border {
-    margin: 0 0 30px 0;
+    margin: 0;
   }
 }
 

@@ -30,14 +30,21 @@
   &__button {
     background-color: $dullcolor;
     color: $primarycolor;
-    width: 280px;
+    width: 306px;
     height: 50px;
     border-radius: 8px;
+    font-size: 14px;
+    letter-spacing: 0.375px;
+    padding: 13px 30px;
     @include responsive(tablet) {
       width: 306px;
-      font-size: 14px;
       line-height: 24px;
       justify-content: center;
+    }
+    @include responsive(phone) {
+      padding: 16px 30px;
+      width: 280px;
+      @include fontproperty(12px, 1.5, 400);
     }
   }
   &__text {
