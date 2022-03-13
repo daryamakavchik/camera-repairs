@@ -1,7 +1,7 @@
 const repairButtons = document.querySelectorAll(".button");
 
 function buttonChange(evt) {
-  evt.target.closest(".button__text").textContent =
+  evt.target.closest(".button").textContent =
     "Круто, спасибо за доверие!";
 }
 
