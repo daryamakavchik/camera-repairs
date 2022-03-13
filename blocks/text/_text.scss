@@ -1,13 +1,13 @@
 .text {
-  @include fontproperty(32px, 1.25, 400);
-  height: auto;
-  color: $secondarycolor;
   max-width: 1120px;
+  height: auto;
   margin: 100px auto 0 auto;
   padding: 0;
+  @include fontproperty(32px, 1.25, 400);
+  color: $secondarycolor;
   @include responsive(tablet) {
-    @include fontproperty(20px, 1.5, 400);
     margin: 100px 0 0 0;
+    @include fontproperty(20px, 1.5, 400);
   }
   @include responsive(phone) {
     margin-top: 40px;

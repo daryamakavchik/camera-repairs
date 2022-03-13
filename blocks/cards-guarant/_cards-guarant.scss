@@ -1,27 +1,31 @@
 .cards-guarant {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
-  padding: 0;
-  margin: 0;
   max-width: 1120px;
+  margin: 0;
+  padding: 0;
+  grid-gap: 20px;
+  grid-template-rows: repeat(auto-fit, minmax(153px, 153px));
   @include responsive(tablet) {
-    grid-auto-rows: auto;
-    grid-template-columns: repeat(auto-fit, minmax(265px, 312px));
+    grid-template-rows: repeat(auto-fit, minmax(153px, 1fr));
+    grid-gap: 20px;
+    max-width: 1000px;
   }
   @include responsive(phone) {
     display: flex;
     flex-direction: column;
   }
   &__heading {
+    margin: 100px 0 60px 0;
     padding: 0;
-    margin: 100px 0 40px 0;
     @include fontproperty(32px, 1.25, 400);
     @include responsive(tablet) {
-      margin: 120px 0 40px 0;
+      margin: 120px 0 60px 0;
       @include fontproperty(20px, 1.5, 400);
     }
     @include responsive(phone) {
+      margin: 70px 0 40px 0;
       @include fontproperty(12px, 1.5, 400);
-      margin: 70px 0 20px 0;
     }
   }
 }

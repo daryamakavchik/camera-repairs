@@ -25,4 +25,4 @@
 
 ## Ссылка на сайт
 
-https://daryamakavchik.github.io/camera-repair/
+[https://daryamakavchik.github.io/camera-repair/]

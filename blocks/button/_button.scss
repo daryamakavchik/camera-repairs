@@ -4,43 +4,53 @@
   align-content: center;
   width: 224px;
   height: 50px;
-  background-color: $dullcolor;
-  color: $primarycolor;
   margin: 0;
   padding: 13px 16px;
   text-align: center;
-  line-height: 1.71;
-  font-size: 16px;
   border: 0;
   border-radius: 0px 8px 8px 0px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  @include fontproperty(14px, 1.71, 400);
+  background-color: $dullcolor;
+  color: $primarycolor;
   @include responsive(phone) {
     width: 52px;
+    padding: 0;
   }
   &:hover {
     cursor: pointer;
     background-color: rgba(71, 71, 76, 0.7);
   }
+  &:focus #icon {
+    visibility: hidden;
+  }
+  &:focus #icon2 {
+    visibility: hidden;
+  }
   &__text {
-    margin: 0;
-    padding: 0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    text-align: center;
+    @include fontproperty(14px, 1.71, 400);
     letter-spacing: 0.375px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
     display: inline-block;
+    @include zeroindent();
+    @include responsive(tablet) {
+      @include fontproperty(14px, 1.71, 400);
+    }
     @include responsive(phone) {
       display: none;
     }
   }
   &__icon {
-    margin: 0;
+    width: 11px;
+    height: 22px;
+    margin-top: 2px;
+    background-image: url(../images/__icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    @include responsive(phone) {
+      margin: 0 auto;
+      align-self: center;
+    }
   }
 }

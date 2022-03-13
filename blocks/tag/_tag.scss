@@ -1,13 +1,12 @@
 .tag {
-  background-color: $highlightcolor;
   width: 99px;
   height: 20px;
-  border-radius: 4px;
   margin: 4px 0 0 0;
   padding: 4px 8px;
   text-align: center;
   box-sizing: border-box;
-
+  border-radius: 4px;
+  background-color: $highlightcolor;
   &__text {
     @include zeroindent();
     @include fontproperty(12px, 1, 400);

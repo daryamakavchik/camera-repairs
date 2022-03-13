@@ -1,8 +1,8 @@
 @import url(../vendor/fonts/fonts.css);
 .header {
+  max-width: 1120px;
   margin: 0 auto 60px auto;
   padding: 60px 0 0 0;
-  max-width: 1120px;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .header {
@@ -17,12 +17,12 @@
   }
 }
 .header__title {
-  font-size: 50px;
-  line-height: 1.2;
+  margin: 70px 0 0 0;
+  padding: 0;
+  font-size: 112px;
+  line-height: 1;
   font-weight: 400;
   color: #ffffff;
-  margin: 0 0 10px 0;
-  padding: 0;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .header__title {
@@ -36,28 +36,33 @@
 @media (min-width: 320px) and (max-width: 768px) {
   .header__title {
     margin: 60px 0 10px 0;
-  }
-}
-.header__subtitle {
-  font-size: 30px;
-  line-height: 1.26;
-  font-weight: 400;
-  color: #ffffff;
-  margin: 0 0 470px 0;
-  padding: 0;
-  width: calc(100vw - 102px);
-}
-@media (min-width: 768px) and (max-width: 1440px) {
-  .header__subtitle {
     font-size: 50px;
     line-height: 1.2;
     font-weight: 400;
-    width: calc(100vw - 124px);
+  }
+}
+.header__subtitle {
+  margin: 20px 0 470px 0;
+  padding: 0;
+  font-size: 80px;
+  line-height: 88%;
+  font-weight: 400;
+  color: #ffffff;
+}
+@media (min-width: 768px) and (max-width: 1440px) {
+  .header__subtitle {
+    margin-top: 10px;
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 400;
   }
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .header__subtitle {
     margin: 0 0 260px 0;
+    font-size: 30px;
+    line-height: 1.26;
+    font-weight: 400;
   }
 }
 
@@ -68,12 +73,18 @@
   background-color: #000000;
 }
 
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .page {
-  background-color: #000000;
-  font-family: Roboto, "Arial", sans-serif;
-  box-sizing: border-box;
   min-width: 320px;
   margin: 0 auto;
+  padding: 0 30px 0 30px;
+  box-sizing: border-box;
+  font-family: Roboto, "Arial", sans-serif;
+  background-color: #000000;
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .page {
@@ -85,58 +96,52 @@
     max-width: 1440px;
   }
 }
-@media (min-width: 1440px) {
-  .page {
-    max-width: 1440px;
-    width: calc(100vw - 320px);
-  }
-}
 
 .label {
-  color: #47474c;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: row;
   justify-content: stretch;
-  margin: 0;
-  padding: 0;
+  color: #47474c;
 }
 
 .label_place_footer {
   z-index: 2;
   padding-bottom: 84px;
 }
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .label_place_footer {
-    padding-bottom: 84px;
+    padding-bottom: 184px;
   }
 }
 
 .logo {
+  margin: 0 16px 0 0;
+  padding: 0;
   font-size: 20px;
   line-height: 1.33;
   font-weight: 400;
   color: #ffffff;
-  margin: 0 16px 0 0;
-  padding: 0;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .logo {
+    margin: 0 20px 0 0;
     font-size: 22px;
     line-height: 1.36;
     font-weight: 400;
-    margin: 0 20px 0 0;
   }
 }
 
 .tag {
-  background-color: #25e197;
   width: 99px;
   height: 20px;
-  border-radius: 4px;
   margin: 4px 0 0 0;
   padding: 4px 8px;
   text-align: center;
   box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #25e197;
 }
 .tag__text {
   margin: 0;
@@ -151,9 +156,9 @@
   display: flex;
   flex-direction: row;
   justify-content: stretch;
+  max-height: 50px;
   margin: 0 0 12px 0;
   padding: 0;
-  max-height: 50px;
 }
 .input__label {
   font-size: 12px;
@@ -171,12 +176,11 @@ input[type=text] {
 }
 
 .inputarea {
-  margin: 0;
-  padding: 0 16px 0;
   min-width: 229px;
   flex-grow: 1;
-  color: #ffffff;
+  margin: 0;
   padding: 20px 15px 17px 15px;
+  color: #ffffff;
 }
 .inputarea:focus {
   background-color: rgba(142, 142, 152, 0.3);
@@ -203,41 +207,51 @@ input[type=text] {
   align-content: center;
   width: 224px;
   height: 50px;
-  background-color: #47474c;
-  color: #ffffff;
   margin: 0;
   padding: 13px 16px;
   text-align: center;
-  line-height: 1.71;
-  font-size: 16px;
   border: 0;
   border-radius: 0px 8px 8px 0px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  background-color: #47474c;
+  color: #ffffff;
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .button {
     width: 52px;
+    padding: 0;
   }
 }
 .button:hover {
   cursor: pointer;
   background-color: rgba(71, 71, 76, 0.7);
 }
+.button:focus #icon {
+  visibility: hidden;
+}
+.button:focus #icon2 {
+  visibility: hidden;
+}
 .button__text {
-  margin: 0;
-  padding: 0;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  text-align: center;
+  font-weight: 400;
   letter-spacing: 0.375px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
   display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 768px) and (max-width: 1440px) {
+  .button__text {
+    font-size: 14px;
+    line-height: 1.71;
+    font-weight: 400;
+  }
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .button__text {
@@ -245,21 +259,33 @@ input[type=text] {
   }
 }
 .button__icon {
-  margin: 0;
+  width: 11px;
+  height: 22px;
+  margin-top: 2px;
+  background-image: url(../images/__icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .button__icon {
+    margin: 0 auto;
+    align-self: center;
+  }
 }
 
 .images {
   display: grid;
   grid-template-rows: repeat(4, auto);
   grid-gap: 20px;
+  max-width: 1380px;
   margin: 0 auto;
-  max-width: 1120px;
+  padding: 0;
   box-sizing: border-box;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .images {
-    padding: 0 60px;
     margin: 0;
+    padding: 0 60px;
   }
 }
 @media (min-width: 320px) and (max-width: 768px) {
@@ -302,41 +328,34 @@ input[type=text] {
     flex-direction: column;
   }
 }
-.images__text {
-  padding: 0;
-  margin: 60px 0 0 60px;
-  font-size: 32px;
-  line-height: 1.25;
-  font-weight: 400;
-}
 
 .image {
-  margin: 0;
-  padding: 0;
   width: 100%;
   height: 100%;
   max-height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 .text {
+  max-width: 1120px;
+  height: auto;
+  margin: 100px auto 0 auto;
+  padding: 0;
   font-size: 32px;
   line-height: 1.25;
   font-weight: 400;
-  height: auto;
   color: #8e8e98;
-  max-width: 1120px;
-  margin: 100px auto 0 auto;
-  padding: 0;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .text {
+    margin: 100px 0 0 0;
     font-size: 20px;
     line-height: 1.5;
     font-weight: 400;
-    margin: 100px 0 0 0;
   }
 }
 @media (min-width: 320px) and (max-width: 768px) {
@@ -349,18 +368,15 @@ input[type=text] {
 }
 
 .cards {
-  padding: 0;
-  display: grid;
-  grid-auto-rows: auto;
-  grid-gap: 20px;
   max-width: 1120px;
   margin: 0 auto;
+  padding: 0;
+  grid-gap: 20px;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .cards {
-    padding: 0 60px;
     margin: 0;
-    max-width: 1120px;
+    padding: 0 60px;
   }
 }
 @media (min-width: 320px) and (max-width: 768px) {
@@ -369,38 +385,40 @@ input[type=text] {
   }
 }
 .cards__heading {
+  margin: 60px 0 100px 0;
+  padding: 0;
   font-size: 32px;
   line-height: 1.25;
   font-weight: 400;
-  margin: 60px 0 100px 0;
   color: #ffffff;
-  padding: 0;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .cards__heading {
+    margin: 40px 0 120px 0;
     font-size: 20px;
     line-height: 1.5;
     font-weight: 400;
-    margin: 40px 0 100px 0;
   }
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .cards__heading {
-    margin: 0 0 50px 0;
+    margin: 0 0 70px 0;
     font-size: 12px;
     line-height: 1.5;
     font-weight: 400;
   }
 }
 .cards__button {
-  background-color: #47474c;
-  color: #ffffff;
   width: 306px;
   height: 50px;
   border-radius: 8px;
-  font-size: 14px;
-  letter-spacing: 0.375px;
   padding: 13px 30px;
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.375px;
+  background-color: #47474c;
+  color: #ffffff;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .cards__button {
@@ -411,25 +429,26 @@ input[type=text] {
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .cards__button {
-    padding: 16px 30px;
     width: 280px;
+    padding: 16px 30px;
     font-size: 12px;
     line-height: 1.5;
     font-weight: 400;
   }
 }
 .cards__text {
-  font-size: 12px;
-  line-height: 1.5;
-  font-weight: 400;
-  margin: 10px 0 210px 0;
-  padding: 0;
-  height: auto;
   max-width: 1120px;
+  height: auto;
+  margin: 40px 0 210px 0;
+  padding: 0;
+  font-size: 32px;
+  line-height: 1.25;
+  font-weight: 400;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .cards__text {
     max-width: 1000px;
+    margin-top: 40px;
     font-size: 20px;
     line-height: 1.5;
     font-weight: 400;
@@ -437,21 +456,24 @@ input[type=text] {
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .cards__text {
-    margin-bottom: 180px;
+    margin: 30px 0 180px 0;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
   }
 }
 
 .cards-main {
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-  padding: 0;
+  display: grid;
   max-width: 1120px;
+  margin: 0 auto;
+  padding: 0;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .cards-main {
     flex-direction: column;
     max-width: 1000px;
+    margin: 0;
   }
 }
 @media (min-width: 320px) and (max-width: 768px) {
@@ -461,9 +483,9 @@ input[type=text] {
 }
 
 .card {
-  background-color: #1c1c1e;
-  border-radius: 16px;
   padding: 40px;
+  border-radius: 16px;
+  background-color: #1c1c1e;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .card {
@@ -484,12 +506,12 @@ input[type=text] {
   color: #8e8e98;
 }
 .card__heading {
+  margin: 20px 0 0 0;
+  padding: 0;
   font-size: 32px;
   line-height: 1;
   font-weight: 400;
   color: #ffffff;
-  margin: 20px 0 0 0;
-  padding: 0;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .card__heading {
@@ -507,19 +529,19 @@ input[type=text] {
   }
 }
 .card__text {
+  margin: 40px 0 40px 0;
+  padding: 0;
   font-size: 32px;
   line-height: 1.25;
   font-weight: 400;
   color: #8e8e98;
-  margin: 40px 0 40px 0;
-  padding: 0;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .card__text {
+    margin: 40px 0;
     font-size: 32px;
     line-height: 1.25;
     font-weight: 400;
-    margin: 40px 0;
   }
 }
 @media (min-width: 320px) and (max-width: 768px) {
@@ -545,19 +567,24 @@ input[type=text] {
   }
 }
 .card:hover {
+  cursor: pointer;
   background-color: #232327;
 }
 
 .cards-guarant {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
-  padding: 0;
-  margin: 0;
   max-width: 1120px;
+  margin: 0;
+  padding: 0;
+  grid-gap: 20px;
+  grid-template-rows: repeat(auto-fit, minmax(153px, 153px));
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .cards-guarant {
-    grid-auto-rows: auto;
-    grid-template-columns: repeat(auto-fit, minmax(265px, 312px));
+    grid-template-rows: repeat(auto-fit, minmax(153px, 1fr));
+    grid-gap: 20px;
+    max-width: 1000px;
   }
 }
 @media (min-width: 320px) and (max-width: 768px) {
@@ -567,15 +594,15 @@ input[type=text] {
   }
 }
 .cards-guarant__heading {
+  margin: 100px 0 60px 0;
   padding: 0;
-  margin: 100px 0 40px 0;
   font-size: 32px;
   line-height: 1.25;
   font-weight: 400;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .cards-guarant__heading {
-    margin: 120px 0 40px 0;
+    margin: 120px 0 60px 0;
     font-size: 20px;
     line-height: 1.5;
     font-weight: 400;
@@ -583,10 +610,10 @@ input[type=text] {
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .cards-guarant__heading {
+    margin: 70px 0 40px 0;
     font-size: 12px;
     line-height: 1.5;
     font-weight: 400;
-    margin: 70px 0 20px 0;
   }
 }
 
@@ -595,8 +622,8 @@ input[type=text] {
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .card-guarant {
-    padding: 20px;
     max-height: 153px;
+    padding: 20px;
   }
   .card-guarant:nth-child(2) {
     padding-bottom: 39px;
@@ -609,7 +636,7 @@ input[type=text] {
   .card-guarant:nth-child(2) {
     padding-bottom: 39px;
   }
-  .card-guarant:nth-child(3) {
+  .card-guarant:nth-child(4) {
     padding-bottom: 39px;
   }
 }
@@ -630,24 +657,33 @@ input[type=text] {
 }
 
 .cards-support__heading {
-  margin: 70px 0 30px 0;
+  margin: 70px 0 80px 0;
   padding: 0;
+  font-size: 32px;
+  line-height: 1.25;
+  font-weight: 400;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .cards-support__heading {
     margin: 120px 0 80px 0;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .cards-support__heading {
-    margin: 120px 0 70px 0;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 70px 0 50px 0;
   }
 }
 
 .footer {
+  max-width: 1120px;
   margin: 0 auto;
   padding: 0 0 20px 0;
-  max-width: 1120px;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .footer {
@@ -660,17 +696,16 @@ input[type=text] {
   .footer {
     margin: 0;
     padding: 30px 20px 20px 20px;
-    max-width: 1000px;
   }
 }
 .footer__border {
+  max-width: 1120px;
+  margin: 0 auto 60px auto;
+  padding: 0;
   border-top: 2px solid rgba(142, 142, 152, 0.2);
   border-bottom: none;
   border-left: none;
   border-right: none;
-  margin: 0 0 60px 0;
-  padding: 0;
-  max-width: 1120px;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .footer__border {
@@ -680,17 +715,17 @@ input[type=text] {
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .footer__border {
-    margin: 0;
+    margin: 0 0 30px 0;
   }
 }
 
 .copyright {
+  margin: 40px 0 0 0;
+  padding: 0;
   font-size: 12px;
   line-height: 1.5;
   font-weight: 400;
   color: #47474c;
-  margin: 40px 0 0 0;
-  padding: 0;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .copyright {

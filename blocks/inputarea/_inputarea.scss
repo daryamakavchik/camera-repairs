@@ -1,10 +1,9 @@
 .inputarea {
-  margin: 0;
-  padding: 0 16px 0;
   min-width: 229px;
   flex-grow: 1;
-  color: $primarycolor;
+  margin: 0;
   padding: 20px 15px 17px 15px;
+  color: $primarycolor;
   &:focus {
     background-color: rgba(142, 142, 152, 0.3);
     outline: none;

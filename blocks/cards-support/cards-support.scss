@@ -1,12 +1,15 @@
 .cards-support {
   &__heading {
-    margin: 70px 0 30px 0;
+    margin: 70px 0 80px 0;
     padding: 0;
+    @include fontproperty(32px, 1.25, 400);
     @include responsive(tablet) {
       margin: 120px 0 80px 0;
+      @include fontproperty(20px, 1.5, 400);
     }
-    @include responsive(desktop) {
-      margin: 120px 0 70px 0;
+    @include responsive(phone) {
+      @include fontproperty(12px, 1.5, 400);
+      margin: 70px 0 50px 0;
     }
   }
 }

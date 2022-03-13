@@ -1,8 +1,8 @@
 .card-guarant {
   padding: 20px;
   @include responsive(tablet) {
-    padding: 20px;
     max-height: 153px;
+    padding: 20px;
     &:nth-child(2) {
       padding-bottom: 39px;
     }
@@ -14,7 +14,7 @@
     &:nth-child(2) {
       padding-bottom: 39px;
     }
-    &:nth-child(3) {
+    &:nth-child(4) {
       padding-bottom: 39px;
     }
   }

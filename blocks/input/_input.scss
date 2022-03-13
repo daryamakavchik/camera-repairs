@@ -1,8 +1,8 @@
 .input {
   @include flex();
+  max-height: 50px;
   margin: 0 0 12px 0;
   padding: 0;
-  max-height: 50px;
   &__label {
     @include fontproperty();
     @include zeroindent();

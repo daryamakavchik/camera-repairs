@@ -1,6 +1,5 @@
 .label {
-  color: $dullcolor;
+  @include zeroindent();
   @include flex();
-  margin: 0;
-  padding: 0;
+  color: $dullcolor;
 }

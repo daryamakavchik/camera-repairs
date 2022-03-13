@@ -1,64 +1,63 @@
 .cards {
-  padding: 0;
-  display: grid;
-  grid-auto-rows: auto;
-  grid-gap: 20px;
   max-width: 1120px;
   margin: 0 auto;
+  padding: 0;
+  grid-gap: 20px;
   @include responsive(tablet) {
-    padding: 0 60px;
     margin: 0;
-    max-width: 1120px;
+    padding: 0 60px;
   }
   @include responsive(phone) {
     padding: 0 20px;
   }
   &__heading {
-    @include fontproperty(32px, 1.25, 400);
     margin: 60px 0 100px 0;
-    color: $primarycolor;
     padding: 0;
+    @include fontproperty(32px, 1.25, 400);
+    color: $primarycolor;
     @include responsive(tablet) {
+      margin: 40px 0 120px 0;
       @include fontproperty(20px, 1.5, 400);
-      margin: 40px 0 100px 0;
     }
     @include responsive(phone) {
-      margin: 0 0 50px 0;
+      margin: 0 0 70px 0;
       @include fontproperty(12px, 1.5, 400);
     }
   }
   &__button {
-    background-color: $dullcolor;
-    color: $primarycolor;
     width: 306px;
     height: 50px;
     border-radius: 8px;
-    font-size: 14px;
-    letter-spacing: 0.375px;
     padding: 13px 30px;
+    @include fontproperty(14px, 1.71, 400);
+    letter-spacing: 0.375px;
+    background-color: $dullcolor;
+    color: $primarycolor;
     @include responsive(tablet) {
       width: 306px;
       line-height: 24px;
       justify-content: center;
     }
     @include responsive(phone) {
-      padding: 16px 30px;
       width: 280px;
+      padding: 16px 30px;
       @include fontproperty(12px, 1.5, 400);
     }
   }
   &__text {
-    @include fontproperty();
-    margin: 10px 0 210px 0;
-    padding: 0;
-    height: auto;
     max-width: 1120px;
+    height: auto;
+    margin: 40px 0 210px 0;
+    padding: 0;
+    @include fontproperty(32px, 1.25, 400);
     @include responsive(tablet) {
       max-width: 1000px;
+      margin-top: 40px;
       @include fontproperty(20px, 1.5, 400);
     }
     @include responsive(phone) {
-      margin-bottom: 180px;
+      margin: 30px 0 180px 0;
+      @include fontproperty(12px, 1.5, 400);
     }
   }
 }

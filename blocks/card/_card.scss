@@ -1,7 +1,7 @@
 .card {
-  background-color: $darkdullcolor;
-  border-radius: 16px;
   padding: 40px;
+  border-radius: 16px;
+  background-color: $darkdullcolor;
   @include responsive(tablet) {
     padding: 40px;
   }
@@ -14,10 +14,10 @@
     color: $secondarycolor;
   }
   &__heading {
-    @include fontproperty(32px, 1, 400);
-    color: $primarycolor;
     margin: 20px 0 0 0;
     padding: 0;
+    @include fontproperty(32px, 1, 400);
+    color: $primarycolor;
     @include responsive(tablet) {
       @include fontproperty(32px, 1, 400);
       margin: 20px 0 0 0;
@@ -27,13 +27,13 @@
     }
   }
   &__text {
-    @include fontproperty(32px, 1.25, 400);
-    color: $secondarycolor;
     margin: 40px 0 40px 0;
     padding: 0;
+    @include fontproperty(32px, 1.25, 400);
+    color: $secondarycolor;
     @include responsive(tablet) {
-      @include fontproperty(32px, 1.25, 400);
       margin: 40px 0;
+      @include fontproperty(32px, 1.25, 400);
     }
     @include responsive(phone) {
       @include fontproperty(12px, 1.5, 400);
@@ -48,6 +48,7 @@
     }
   }
   &:hover {
+    cursor: pointer;
     background-color: $hovercolor;
   }
 }
