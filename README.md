@@ -22,6 +22,6 @@
 
 - Реализовать функциональность кнопок и полей ввода
 
-## Ссылка на сайт
+#### [Ссылка на сайт](https://daryamakavchik.github.io/camera-repair/)
 
-[https://daryamakavchik.github.io/camera-repair/]
+#### [Ссылка на макет](https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings_external-link?node-id=2%3A1815)

@@ -15,9 +15,9 @@
   @include fontproperty(14px, 1.71, 400);
   background-color: $dullcolor;
   color: $primarycolor;
-  @include responsive(phone) {
+  @include responsive(phone){
+    min-width: 52px;
     width: 52px;
-    padding: 0;
   }
   &:hover {
     cursor: pointer;
