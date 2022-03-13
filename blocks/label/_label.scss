@@ -1,8 +1,6 @@
 .label {
+  color: $dullcolor;
   @include flex();
   margin: 0;
-  padding: 0 0 60px 0;
-  @include responsive(tablet) {
-    padding: 0 0 70px 0;
-  }
+  padding: 0;
 }

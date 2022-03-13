@@ -1,9 +1,12 @@
 .card {
   background-color: $darkdullcolor;
   border-radius: 16px;
-  padding: 20px;
+  padding: 40px;
   @include responsive(tablet) {
     padding: 40px;
+  }
+  @include responsive(phone) {
+    padding: 20px;
   }
   &__label {
     @include fontproperty(18px, 1, 400);
@@ -11,23 +14,29 @@
     color: $secondarycolor;
   }
   &__heading {
-    @include fontproperty(24px, 1.33, 400);
+    @include fontproperty(32px, 1, 400);
     color: $primarycolor;
-    margin: 10px 0 0 0;
+    margin: 20px 0 0 0;
     padding: 0;
     @include responsive(tablet) {
       @include fontproperty(32px, 1, 400);
       margin: 20px 0 0 0;
     }
+    @include responsive(phone) {
+      @include fontproperty(24px, 1.33, 400);
+    }
   }
   &__text {
-    @include fontproperty();
+    @include fontproperty(32px, 1.25, 400);
     color: $secondarycolor;
-    margin: 28px 0 100px 0;
+    margin: 40px 0 40px 0;
     padding: 0;
     @include responsive(tablet) {
       @include fontproperty(32px, 1.25, 400);
       margin: 40px 0;
+    }
+    @include responsive(phone) {
+      @include fontproperty(12px, 1.5, 400);
     }
   }
   &__price {

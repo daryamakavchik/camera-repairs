@@ -1,30 +1,30 @@
 .cards {
-  padding: 0 20px;
+  padding: 0;
   display: grid;
   grid-auto-rows: auto;
   grid-gap: 20px;
+  max-width: 1120px;
+  margin: 0 auto;
   @include responsive(tablet) {
     padding: 0 60px;
-  }
-  @include responsive(desktop) {
-    padding: 0 60px;
     margin: 0;
+    max-width: 1120px;
+  }
+  @include responsive(phone) {
+    padding: 0 20px;
   }
   &__heading {
-    @include fontproperty();
+    @include fontproperty(32px, 1.25, 400);
+    margin: 60px 0 100px 0;
     color: $primarycolor;
     padding: 0;
-    margin: 0 0 50px 0;
     @include responsive(tablet) {
       @include fontproperty(20px, 1.5, 400);
-      margin: 60px 0 120px 0;
-    }
-    @include responsive(desktop) {
-      @include fontproperty(32px, 1.25, 400);
-      margin: 60px 0 100px 0;
+      margin: 40px 0 100px 0;
     }
     @include responsive(phone) {
-      margin: 70px 0 40px 0;
+      margin: 0 0 50px 0;
+      @include fontproperty(12px, 1.5, 400);
     }
   }
   &__button {
@@ -42,15 +42,16 @@
   }
   &__text {
     @include fontproperty();
-    margin: 10px 0 180px 0;
+    margin: 10px 0 210px 0;
     padding: 0;
     height: auto;
+    max-width: 1120px;
     @include responsive(tablet) {
+      max-width: 1000px;
       @include fontproperty(20px, 1.5, 400);
     }
-    @include responsive(desktop) {
-      @include fontproperty(32px, 1.25, 400);
-      margin: 30px 0 240px 0;
+    @include responsive(phone) {
+      margin-bottom: 180px;
     }
   }
 }

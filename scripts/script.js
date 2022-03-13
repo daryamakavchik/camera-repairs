@@ -1,7 +1,8 @@
-const repairButtons = document.querySelectorAll('.button');
+const repairButtons = document.querySelectorAll(".button");
 
-function buttonChange(evt){
-  evt.target.closest('.button__text').textContent = 'Круто, спасибо за доверие!';
+function buttonChange(evt) {
+  evt.target.closest(".button__text").textContent =
+    "Круто, спасибо за доверие!";
 }
 
-repairButtons.forEach(item => item.addEventListener('click', buttonChange));
+repairButtons.forEach((item) => item.addEventListener("click", buttonChange));

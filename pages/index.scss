@@ -1,4 +1,14 @@
 @import url(../vendor/fonts/fonts.css);
+
+@import "../variables/background";
+@import "../variables/color";
+@import "../variables/media";
+
+@import "../mixins/zeroindent";
+@import "../mixins/flex";
+@import "../mixins/fontproperty";
+@import "../mixins/responsive";
+
 @import "../blocks/header/header";
 @import "../blocks/content/content";
 @import "../blocks/page/page";
@@ -20,12 +30,3 @@
 @import "../blocks/cards-support/cards-support.scss";
 @import "../blocks/footer/footer";
 @import "../blocks/copyright/copyright";
-
-@import "../variables/background";
-@import "../variables/color";
-@import "../variables/media";
-
-@import "../mixins/zeroindent";
-@import "../mixins/flex";
-@import "../mixins/fontproperty";
-@import "../mixins/responsive";

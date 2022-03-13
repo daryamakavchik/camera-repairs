@@ -1,6 +1,14 @@
-.cards-main{
+.cards-main {
   display: flex;
   flex-direction: row;
   margin: 0;
   padding: 0;
+  max-width: 1120px;
+  @include responsive(tablet) {
+    flex-direction: column;
+    max-width: 1000px;
+  }
+  @include responsive(phone) {
+    flex-direction: column;
+  }
 }

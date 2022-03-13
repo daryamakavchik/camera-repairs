@@ -3,21 +3,26 @@
   @include responsive(tablet) {
     padding: 20px;
     max-height: 153px;
-    &:nth-child(2){
-      padding-bottom: 39px; 
+    &:nth-child(2) {
+      padding-bottom: 39px;
     }
-    &:nth-child(3){
-      padding-bottom: 39px; 
+    &:nth-child(3) {
+      padding-bottom: 39px;
     }
   }
-  @include responsive(desktop) {
-    padding: 20px;
+  @include responsive(phone) {
+    &:nth-child(2) {
+      padding-bottom: 39px;
+    }
+    &:nth-child(3) {
+      padding-bottom: 39px;
+    }
   }
   &__text {
     margin: 36px 0 0 0;
     padding: 0;
+    @include fontproperty(15px, 1.26, 400);
     @include responsive(tablet) {
-      @include fontproperty(15px, 1.26, 400);
       margin-top: 38px;
     }
   }
