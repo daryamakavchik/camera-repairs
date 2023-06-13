@@ -8,11 +8,9 @@
   box-sizing: border-box;
   @include responsive(tablet) {
     margin: 0;
-    padding: 0 60px;
   }
   @include responsive(phone) {
     grid-auto-rows: auto;
-    padding: 0 20px;
   }
   &__upper {
     display: grid;

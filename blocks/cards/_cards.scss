@@ -6,12 +6,10 @@
   grid-template-columns: repeat(2, 1fr);
   @include responsive(tablet) {
     margin: 0;
-    padding: 0 60px;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: auto;
   }
   @include responsive(phone) {
-    padding: 0 20px;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: auto;
   }
