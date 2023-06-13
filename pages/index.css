@@ -1,7 +1,7 @@
 @import url(../vendor/fonts/fonts.css);
 .header {
   max-width: 1120px;
-  margin: 0 auto 60px auto;
+  margin: 0 auto 120px auto;
   padding: 60px 0 0 0;
 }
 @media (min-width: 768px) and (max-width: 1440px) {
@@ -17,7 +17,7 @@
   }
 }
 .header__title {
-  margin: 70px 0 0 0;
+  margin: 62px 0 0 0px;
   padding: 0;
   font-size: 112px;
   line-height: 1;
@@ -42,7 +42,7 @@
   }
 }
 .header__subtitle {
-  margin: 20px 0 470px 0;
+  margin: 20px 0 230px 0;
   padding: 0;
   font-size: 80px;
   line-height: 88%;
@@ -51,10 +51,12 @@
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .header__subtitle {
-    margin-top: 10px;
+    margin: 0 0 470px 0;
     font-size: 50px;
     line-height: 1.2;
     font-weight: 400;
+    max-width: 644px;
+    width: 644px;
   }
 }
 @media (min-width: 320px) and (max-width: 768px) {
@@ -117,7 +119,7 @@
 }
 
 .logo {
-  margin: 0 16px 0 0;
+  margin: 0 30px 0 0;
   padding: 0;
   font-size: 20px;
   line-height: 1.33;
@@ -192,12 +194,12 @@ input[type=text] {
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .inputarea {
-    max-width: 427px;
+    max-width: 417px;
   }
 }
 @media (min-width: 1440px) {
   .inputarea {
-    max-width: 348px;
+    max-width: 318px;
   }
 }
 
@@ -330,6 +332,11 @@ input[type=text] {
   margin: 0;
   padding: 0;
 }
+@media (min-width: 320px) and (max-width: 768px) {
+  .image{
+    border-radius: 4px;
+  }
+}
 
 .text {
   max-width: 1120px;
@@ -351,7 +358,7 @@ input[type=text] {
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .text {
-    margin-top: 40px;
+    margin-top: 60px;
     font-size: 12px;
     line-height: 1.5;
     font-weight: 400;
@@ -363,20 +370,25 @@ input[type=text] {
   margin: 0 auto;
   padding: 0;
   grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .cards {
     margin: 0;
     padding: 0 60px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: auto;
   }
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .cards {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: auto;
     padding: 0 20px;
   }
 }
 .cards__heading {
-  margin: 60px 0 100px 0;
+  margin: 40px 0 120px 0;
   padding: 0;
   font-size: 32px;
   line-height: 1.25;
@@ -393,7 +405,7 @@ input[type=text] {
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .cards__heading {
-    margin: 0 0 70px 0;
+    margin: 15px 0 70px 0;
     font-size: 12px;
     line-height: 1.5;
     font-weight: 400;
@@ -428,7 +440,7 @@ input[type=text] {
 .cards__text {
   max-width: 1120px;
   height: auto;
-  margin: 40px 0 210px 0;
+  margin: 50px 0 240px 0;
   padding: 0;
   font-size: 32px;
   line-height: 1.25;
@@ -437,7 +449,8 @@ input[type=text] {
 @media (min-width: 768px) and (max-width: 1440px) {
   .cards__text {
     max-width: 1000px;
-    margin-top: 40px;
+    width: 648px;
+    margin: 40px 0 210px 0;
     font-size: 20px;
     line-height: 1.5;
     font-weight: 400;
@@ -445,7 +458,7 @@ input[type=text] {
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .cards__text {
-    margin: 30px 0 180px 0;
+    margin: 30px 0 150px 0;
     font-size: 12px;
     line-height: 1.5;
     font-weight: 400;
@@ -515,6 +528,7 @@ input[type=text] {
     font-size: 24px;
     line-height: 1.33;
     font-weight: 400;
+    margin-top: 15px;
   }
 }
 .card__text {
@@ -535,6 +549,7 @@ input[type=text] {
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .card__text {
+    margin: 25px 0 80px 0;
     font-size: 12px;
     line-height: 1.5;
     font-weight: 400;
@@ -571,19 +586,21 @@ input[type=text] {
 }
 @media (min-width: 768px) and (max-width: 1440px) {
   .cards-guarant {
-    grid-template-rows: repeat(auto-fit, minmax(153px, 1fr));
     grid-gap: 20px;
-    max-width: 1000px;
+    grid-template-columns: repeat(auto-fit, minmax(314px, 314px));
+    margin: 0;
+    padding: 0;
+    width: 648px;
   }
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .cards-guarant {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(148px, 148px));
   }
 }
 .cards-guarant__heading {
-  margin: 100px 0 60px 0;
+  margin: 115px 0 60px 0;
   padding: 0;
   font-size: 32px;
   line-height: 1.25;
@@ -646,7 +663,7 @@ input[type=text] {
 }
 
 .cards-support__heading {
-  margin: 70px 0 80px 0;
+  margin: 120px 0 90px 0;
   padding: 0;
   font-size: 32px;
   line-height: 1.25;
@@ -665,7 +682,7 @@ input[type=text] {
     font-size: 12px;
     line-height: 1.5;
     font-weight: 400;
-    margin: 70px 0 50px 0;
+    margin: 20px 0 50px 0;
   }
 }
 

@@ -13,9 +13,9 @@
     background-color: rgba(142, 142, 152, 0.3);
   }
   @include responsive(tablet) {
-    max-width: 427px;
+    max-width: 417px;
   }
   @include responsive(desktop) {
-    max-width: 348px;
+    max-width: 318px;
   }
 }

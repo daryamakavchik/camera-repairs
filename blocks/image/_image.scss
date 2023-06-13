@@ -5,4 +5,7 @@
   object-fit: cover;
   border-radius: 16px;
   @include zeroindent();
+  @include responsive(phone) {
+    border-radius: 4px;
+  }
 }

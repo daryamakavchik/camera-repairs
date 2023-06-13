@@ -3,15 +3,20 @@
   margin: 0 auto;
   padding: 0;
   grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
   @include responsive(tablet) {
     margin: 0;
     padding: 0 60px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: auto;
   }
   @include responsive(phone) {
     padding: 0 20px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: auto;
   }
   &__heading {
-    margin: 60px 0 100px 0;
+    margin: 40px 0 120px 0;
     padding: 0;
     @include fontproperty(32px, 1.25, 400);
     color: $primarycolor;
@@ -20,7 +25,7 @@
       @include fontproperty(20px, 1.5, 400);
     }
     @include responsive(phone) {
-      margin: 0 0 70px 0;
+      margin: 15px 0 70px 0;
       @include fontproperty(12px, 1.5, 400);
     }
   }
@@ -45,16 +50,17 @@
   &__text {
     max-width: 1120px;
     height: auto;
-    margin: 40px 0 210px 0;
+    margin: 50px 0 240px 0;
     padding: 0;
     @include fontproperty(32px, 1.25, 400);
     @include responsive(tablet) {
       max-width: 1000px;
-      margin-top: 40px;
+      width: 648px;
+      margin: 40px 0 210px 0;
       @include fontproperty(20px, 1.5, 400);
     }
     @include responsive(phone) {
-      margin: 30px 0 180px 0;
+      margin: 30px 0 150px 0;
       @include fontproperty(12px, 1.5, 400);
     }
   }

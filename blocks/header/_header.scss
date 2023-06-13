@@ -1,6 +1,6 @@
 .header {
   max-width: 1120px;
-  margin: 0 auto 60px auto;
+  margin: 0 auto 120px auto;
   padding: 60px 0 0 0;
   @include responsive(tablet) {
     margin: 0 0 52px 0;
@@ -11,7 +11,7 @@
     padding: 20px 20px 40px 20px;
   }
   &__title {
-    margin: 70px 0 0 0;
+    margin: 62px 0 0 0;
     padding: 0;
     @include fontproperty(112px, 1, 400);
     color: $primarycolor;
@@ -26,12 +26,14 @@
     }
   }
   &__subtitle {
-    margin: 20px 0 470px 0;
+    margin: 20px 0 230px 0;
     padding: 0;
     @include fontproperty(80px, 88%, 400);
     color: $primarycolor;
     @include responsive(tablet) {
-      margin-top: 10px;
+      margin: 0 0 470px 0;
+      max-width: 644px;
+      width: 644px;
       @include fontproperty(50px, 1.2, 400);
     }
     @include responsive(phone) {

@@ -23,6 +23,7 @@
       margin: 20px 0 0 0;
     }
     @include responsive(phone) {
+      margin-top: 15px;
       @include fontproperty(24px, 1.33, 400);
     }
   }
@@ -36,6 +37,7 @@
       @include fontproperty(32px, 1.25, 400);
     }
     @include responsive(phone) {
+      margin: 25px 0 80px 0;
       @include fontproperty(12px, 1.5, 400);
     }
   }

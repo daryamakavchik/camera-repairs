@@ -10,7 +10,7 @@
     @include fontproperty(20px, 1.5, 400);
   }
   @include responsive(phone) {
-    margin-top: 40px;
+    margin-top: 60px;
     @include fontproperty(12px, 1.5, 400);
   }
 }
