@@ -1,6 +1,7 @@
 # "Camera repairs"
 
 #### [GitHub Pages Link](https://daryamakavchik.github.io/camera-repairs/)
+#### [Figma link](https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings_external-link?node-id=2%3A1815)
 
 ![demo](https://github.com/daryamakavchik/camera-repairs/assets/90967822/0d40830b-00d7-4f5f-8a0d-4e3f51f1971f) 
 
@@ -23,5 +24,5 @@
 - Media-queries
 - BEM Nested file structure
 
-
-#### [Figma link](https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings_external-link?node-id=2%3A1815)
+## TO DO:
+- ensure cross-browser compatibility
