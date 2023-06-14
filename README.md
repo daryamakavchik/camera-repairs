@@ -1,14 +1,11 @@
-# Project: Camera repairs
-
----
-
-A responsive landing page created during Yandex Practicum bootcamp training.
+# "Camera repairs"
 
 ![demo](https://github.com/daryamakavchik/camera-repairs/assets/90967822/0d40830b-00d7-4f5f-8a0d-4e3f51f1971f) 
 
-
 ![demo2](https://github.com/daryamakavchik/camera-repairs/assets/90967822/0c990117-7b01-4c8d-bb35-fde0812f8234)
 
+## Description
+"Camera repairs" is a portfolio project created as an assignment for [Yandex.Practicum](https://practicum.yandex.com/web/ "Web Development Program"). It's a responsive landing page for people interested in repairing a film or digital camera.
 
 ## Tech stack
 
@@ -24,13 +21,5 @@ A responsive landing page created during Yandex Practicum bootcamp training.
 - Media-queries
 - BEM Nested file structure
 
-## Installation
-1. Clone the repository
-<pre>
-    <code>git clone https://github.com/daryamakavchik/camera-repairs.git</code>
-</pre>
-2. Open index.html
-
-## Links
-#### [GitHub Pages](https://daryamakavchik.github.io/camera-repairs/)
-#### [Figma](https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings_external-link?node-id=2%3A1815)
+#### [GitHub Pages Link](https://daryamakavchik.github.io/camera-repairs/)
+#### [Figma link](https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings_external-link?node-id=2%3A1815)
