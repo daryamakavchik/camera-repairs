@@ -4,7 +4,7 @@
 
 A simple landing page created during Yandex Practicum bootcamp training.
 
-![demo](https://github.com/daryamakavchik/camera-repairs/assets/90967822/0d40830b-00d7-4f5f-8a0d-4e3f51f1971f) ![demo2](https://github.com/daryamakavchik/camera-repairs/assets/90967822/9d806c0d-6364-46b3-927f-caac96f4a37f)
+![demo](https://github.com/daryamakavchik/camera-repairs/assets/90967822/0d40830b-00d7-4f5f-8a0d-4e3f51f1971f)
 
 
 ## Tech stack
