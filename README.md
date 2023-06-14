@@ -4,9 +4,10 @@
 
 A responsive landing page created during Yandex Practicum bootcamp training.
 
-          |  
-:-------------------------:|:-------------------------:
-![demo](https://github.com/daryamakavchik/camera-repairs/assets/90967822/0d40830b-00d7-4f5f-8a0d-4e3f51f1971f)  |  ![demo2](https://github.com/daryamakavchik/camera-repairs/assets/90967822/0c990117-7b01-4c8d-bb35-fde0812f8234)
+![demo](https://github.com/daryamakavchik/camera-repairs/assets/90967822/0d40830b-00d7-4f5f-8a0d-4e3f51f1971f) 
+
+
+![demo2](https://github.com/daryamakavchik/camera-repairs/assets/90967822/0c990117-7b01-4c8d-bb35-fde0812f8234)
 
 
 ## Tech stack
