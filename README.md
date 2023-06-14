@@ -29,7 +29,7 @@ A responsive landing page created during Yandex Practicum bootcamp training.
 <pre>
     <code>git clone https://github.com/daryamakavchik/camera-repairs.git</code>
 </pre>
-2. Open index.html file
+2. Open index.html
 
 ## Links
 #### [GitHub Pages](https://daryamakavchik.github.io/camera-repairs/)
