@@ -16,7 +16,7 @@ A simple landing page created during Yandex Practicum bootcamp training.
 
 - Flexbox
 - Grid Layout
-- Медиа-queries
+- Media-queries
 - BEM Nested folder structure
 
 
