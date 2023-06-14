@@ -24,6 +24,13 @@ A responsive landing page created during Yandex Practicum bootcamp training.
 - Media-queries
 - BEM Nested file structure
 
+## Installation
+1. Clone the repository
+<pre>
+    <code>git clone https://github.com/daryamakavchik/camera-repairs.git</code>
+</pre>
+2. Open index.html file
+
 
 #### [GitHub Pages link](https://daryamakavchik.github.io/camera-repairs/)
 #### [Figma template link](https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings_external-link?node-id=2%3A1815)
