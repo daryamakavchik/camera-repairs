@@ -4,9 +4,6 @@
 
 A simple landing page created during Yandex Practicum bootcamp training.
 
-![demo](https://github.com/daryamakavchik/camera-repairs/assets/90967822/8130987f-17fd-4c5f-9282-4a0106c88455)
-
-
 ## Tech stack
 
 ![HTML](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
