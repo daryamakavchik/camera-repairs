@@ -25,5 +25,14 @@
 - Media-queries
 - BEM Nested file structure
 
+## Installation
+
+```bash
+# Clone the repository
+git clone https://daryamakavchik.github.io/camera-repairs/
+# Enter the project directory
+cd camera-repairs
+```
+
 ## TO DO
 - [ ] ensure cross-browser compatibility
