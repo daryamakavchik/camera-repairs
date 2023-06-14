@@ -22,7 +22,7 @@ A responsive landing page created during Yandex Practicum bootcamp training.
 - Flexbox
 - Grid Layout
 - Media-queries
-- BEM Nested folder structure
+- BEM Nested file structure
 
 
 #### [GitHub Pages link](https://daryamakavchik.github.io/camera-repairs/)
