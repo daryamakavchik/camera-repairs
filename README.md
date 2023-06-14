@@ -24,5 +24,5 @@
 - Media-queries
 - BEM Nested file structure
 
-## TO DO:
-- ensure cross-browser compatibility
+## TO DO
+- [ ] ensure cross-browser compatibility
