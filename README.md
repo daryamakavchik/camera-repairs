@@ -4,8 +4,8 @@
 
 A simple landing page created during Yandex Practicum bootcamp training.
 
-https://github.com/daryamakavchik/camera-repairs/assets/90967822/95bc0332-2fa1-433b-9ebc-ecb3877f3a40
-https://github.com/daryamakavchik/camera-repairs/assets/90967822/8130987f-17fd-4c5f-9282-4a0106c88455
+![demo](https://github.com/daryamakavchik/camera-repairs/assets/90967822/95bc0332-2fa1-433b-9ebc-ecb3877f3a40)
+![demo](https://github.com/daryamakavchik/camera-repairs/assets/90967822/8130987f-17fd-4c5f-9282-4a0106c88455)
 
 
 
