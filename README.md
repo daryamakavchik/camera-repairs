@@ -2,7 +2,7 @@
 
 ---
 
-A simple landing page created during Yandex Practicum bootcamp training.
+A responsive landing page created during Yandex Practicum bootcamp training.
 
 ![demo](https://github.com/daryamakavchik/camera-repairs/assets/90967822/0d40830b-00d7-4f5f-8a0d-4e3f51f1971f)
 
