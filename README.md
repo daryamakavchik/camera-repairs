@@ -2,26 +2,23 @@
 
 ---
 
-Одностраничный сайт, созданный в рамках обучения в Яндекс Практикум.
+A simple landing page created during Yandex Practicum bootcamp training.
 
-https://user-images.githubusercontent.com/90967822/199565927-0ff7c41d-f8a4-4eba-9b84-f74bc65a8249.mov
 
-## Стек
+## Tech stack
 
-- HTML
-- CSS
-- SCSS
-- JavaScript
+- https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white
+- https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white
+- https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
+- https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
 
-## Реализация
+## Implementation
 
 - Flexbox
 - Grid Layout
-- Медиа-запросы
-- Файловая структура по правилам БЭМ Nested
+- Медиа-queries
+- BEM Nested folder structure
 
-## Планы по доработке
-- Реализовать функциональность кнопок и полей ввода
 
-#### [Ссылка на сайт](https://daryamakavchik.github.io/camera-repair/)
-#### [Ссылка на макет](https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings_external-link?node-id=2%3A1815)
+#### [GitHub Pages link](https://daryamakavchik.github.io/camera-repair/)
+#### [Figma template link](https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings_external-link?node-id=2%3A1815)
