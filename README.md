@@ -3,7 +3,7 @@
 ---
 
 A simple landing page created during Yandex Practicum bootcamp training.
-
+[!Demo](https://user-images.githubusercontent.com/90967822/245644320-5444968c-6ee2-4bed-b469-bb2a65d6b999.mp4)
 
 ## Tech stack
 
