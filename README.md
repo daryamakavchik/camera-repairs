@@ -3,7 +3,8 @@
 ---
 
 A simple landing page created during Yandex Practicum bootcamp training.
-![Demo](https://user-images.githubusercontent.com/90967822/245644320-5444968c-6ee2-4bed-b469-bb2a65d6b999.mp4)
+
+https://github.com/daryamakavchik/camera-repairs/assets/90967822/fa670a13-f8d9-4a6b-8803-99355c9ccd8f
 
 ## Tech stack
 
