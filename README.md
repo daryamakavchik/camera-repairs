@@ -1,10 +1,10 @@
-# "Camera repairs"
+# Camera Repairs
 
 #### [GitHub Pages](https://daryamakavchik.github.io/camera-repairs/)
 #### [Figma](https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings_external-link?node-id=2%3A1815)
 
 ## Description
-"Camera repairs" is a portfolio project created as an assignment for [Yandex.Practicum](https://practicum.yandex.com/web/ "Web Development Program"). It's a responsive landing page for people interested in repairing a film or digital camera.
+"Camera Repairs" is a portfolio project created as an assignment for [Yandex.Practicum](https://practicum.yandex.com/web/ "Web Development Program"). It's a responsive landing page for people interested in repairing a film or digital camera.
 
 ## Tech stack
 
