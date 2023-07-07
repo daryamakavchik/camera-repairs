@@ -6,6 +6,9 @@
 ## Description
 "Camera Repairs" is a portfolio project created as an assignment for [Yandex.Practicum](https://practicum.yandex.com/web/ "Web Development Program"). It's a responsive landing page for people interested in repairing a film or digital camera.
 
+<img width="714" alt="page1" src="https://github.com/daryamakavchik/camera-repairs/assets/90967822/41e8b184-e431-48e1-889f-30e9df489a93">
+<img width="714" alt="page2" src="https://github.com/daryamakavchik/camera-repairs/assets/90967822/b1ddc17b-e938-4a35-a019-3d9d948d59ea">
+
 ## Tech stack
 
 ![HTML](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
